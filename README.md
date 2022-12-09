@@ -1,12 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +6,41 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Packages used in the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+package : How to install
 
-### `npm run build`
+axios :  npm install axios 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bootstrap  react-bootstrap  :  npm install react-bootstrap bootstrap 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+lodash : npm install lodash 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+validator : npm install validator 
 
-### `npm run eject`
+chart.js react-chartjs-2 : npm install chart.js react-chartjs-2 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+react-router-dom: npm install react-router-dom@5.2.0 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+redux : npm install redux@4.0.5 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+react-redux : npm install react-redux@7.2.2 --force 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+redux-thunk : npm install redux-thunk@2.3.0 --force
 
-## Learn More
+## About the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Manage your daily life expenses reporting process easier with Expense's application convenient features.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features 
 
-### Code Splitting
+* Private Router set up for user data pages , without login the page will not show like : dashboard , settings , profile
+* User can register - validation of form , 
+* User can login - token set in localstoage, 
+* update Budget estimation ,
+* maintain their categories, expenses and total Budget with CRUD operation in Redux store
+* once the user logout - token will removed and redirect to home page - login section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Back-End Url
+Open [https://github.com/Suriya2596/EXpenses-Server](https://github.com/Suriya2596/EXpenses-Server) to view it in your browser.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
